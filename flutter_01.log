@@ -1,0 +1,73 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+DartDevelopmentServiceException: DartDevelopmentServiceException: Failed to start Dart Development Service
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.35.4, on Microsoft Windows [version 10.0.26200.8655], locale fr-FR) [1 718ms]
+    [32m•[39m Flutter version 3.35.4 on channel stable at C:\flutter_windows_3.35.4-stable\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision d693b4b9db (1 year, 2 months ago), 2025-09-16 14:27:41 +0000
+    [32m•[39m Engine revision c298091351
+    [32m•[39m Dart version 3.9.2
+    [32m•[39m DevTools version 2.48.0
+    [32m•[39m Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android,
+      enable-ios, cli-animations, enable-lldb-debugging
+
+[32m[✓][39m Windows Version (11 Professionnel 64-bit, 25H2, 2009) [16,0s]
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 37.0.0) [12,9s]
+    [32m•[39m Android SDK at C:\Users\Justin\AppData\Local\Android\sdk
+    [32m•[39m Emulator version 37.2.13.0 (build_id 16740729) (CL:N/A)
+    [31m✗[39m cmdline-tools component is missing.
+      Try installing or updating Android Studio.
+      Alternatively, download the tools from https://developer.android.com/studio#command-line-tools-only and make sure
+      to set the ANDROID_HOME environment variable.
+      See https://developer.android.com/studio/command-line for more details.
+    [31m✗[39m Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/to/windows-android-setup for more details.
+
+[32m[✓][39m Chrome - develop for the web [73ms]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[31m[✗][39m Visual Studio - develop Windows apps [65ms]
+    [31m✗[39m Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[32m[✓][39m Android Studio (version 2025.1.3) [42ms]
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.7+-13880790-b1038.58)
+
+[32m[✓][39m VS Code (version unknown) [29ms]
+    [32m•[39m VS Code at C:\Users\Justin\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension can be installed from:
+      🔨 https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+    [31m✗[39m Unable to determine VS Code version.
+
+[32m[✓][39m Connected device (3 available) [3,2s]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [version 10.0.26200.8655]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 157.0.8103.79
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 157.0.4341.60
+
+[32m[✓][39m Network resources [3,5s]
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 2 categories.
+```
